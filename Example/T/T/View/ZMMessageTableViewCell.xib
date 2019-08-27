@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZMMessageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TT1-HJ-bxt">
+                        <rect key="frame" x="12" y="0.0" width="90" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="P8Y-Zn-7Qb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYP-2O-7Be">
+                        <rect key="frame" x="228" y="7" width="80" height="30"/>
+                        <color key="backgroundColor" red="0.21698023491717794" green="0.64932419478527603" blue="0.14233786712306748" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="PyH-Ia-7zA"/>
+                            <constraint firstAttribute="width" constant="80" id="vPa-Nh-eBq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <state key="normal" title="验证码"/>
+                        <connections>
+                            <action selector="sendMsgAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="2li-mI-xtl"/>
+                        </connections>
+                    </button>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SUX-2w-IWB">
+                        <rect key="frame" x="107" y="13.5" width="116" height="17"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TT1-HJ-bxt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="A8L-7H-u0I"/>
+                    <constraint firstItem="SUX-2w-IWB" firstAttribute="leading" secondItem="TT1-HJ-bxt" secondAttribute="trailing" constant="5" id="HU8-lV-46z"/>
+                    <constraint firstItem="KYP-2O-7Be" firstAttribute="leading" secondItem="SUX-2w-IWB" secondAttribute="trailing" constant="5" id="Mgg-mU-7GS"/>
+                    <constraint firstAttribute="trailing" secondItem="KYP-2O-7Be" secondAttribute="trailing" constant="12" id="Q3j-qI-GF7"/>
+                    <constraint firstItem="TT1-HJ-bxt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Uyg-lV-7Az"/>
+                    <constraint firstItem="SUX-2w-IWB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="YR9-TJ-nox"/>
+                    <constraint firstItem="KYP-2O-7Be" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="cpd-a9-wmn"/>
+                    <constraint firstAttribute="bottom" secondItem="TT1-HJ-bxt" secondAttribute="bottom" id="vYH-d7-zFj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="leftLabel" destination="TT1-HJ-bxt" id="ctF-uw-l6b"/>
+                <outlet property="middleContentTextFiled" destination="SUX-2w-IWB" id="fR5-TD-Xj9"/>
+                <outlet property="msgBtn" destination="KYP-2O-7Be" id="nrr-M6-42R"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </tableViewCell>
+    </objects>
+</document>

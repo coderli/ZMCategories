@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "identifyKey": "name",
+            "leftTitle": "姓名*",
+            "middleContent": "",
+            "middlePlaceHolder": "请输入姓名",
+            "middleCanEidt": 1,
+            "keyboardType": 0,
+            "type": "default",
+            "must": 1
+        },
+        {
+            "identifyKey": "name",
+            "leftTitle": "年龄*",
+            "middleContent": "",
+            "middlePlaceHolder": "请输入姓名",
+            "middleCanEidt": 1,
+            "keyboardType": 0,
+            "type": "default",
+            "must": 1
+        },
+        {
+            "identifyKey": "name",
+            "leftTitle": "性别*",
+            "middleContent": "",
+            "middlePlaceHolder": "请输入姓名",
+            "middleCanEidt": 1,
+            "keyboardType": 0,
+            "type": "default",
+            "must": 1
+        },
+        {
+            "identifyKey": "name",
+            "leftTitle": "验证码*",
+            "middleContent": "",
+            "middlePlaceHolder": "请输入验证码",
+            "middleCanEidt": 1,
+            "keyboardType": 4,
+            "type": "message",
+            "must": 1
+        }
+    ]
+]

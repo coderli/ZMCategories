@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180915D52309A6AE00A6CA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180915D42309A6AE00A6CA00 /* AppDelegate.m */; };
+		180915D82309A6AE00A6CA00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180915D72309A6AE00A6CA00 /* ViewController.m */; };
+		180915DB2309A6AE00A6CA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180915D92309A6AE00A6CA00 /* Main.storyboard */; };
+		180915DD2309A6AF00A6CA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180915DC2309A6AF00A6CA00 /* Assets.xcassets */; };
+		180915E02309A6AF00A6CA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180915DE2309A6AF00A6CA00 /* LaunchScreen.storyboard */; };
+		180915E32309A6AF00A6CA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180915E22309A6AF00A6CA00 /* main.m */; };
+		187EC42F23127E740074052B /* XibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EC42E23127E740074052B /* XibView.m */; };
+		187EC43123127E870074052B /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187EC43023127E870074052B /* XibView.xib */; };
+		187EC434231283090074052B /* ZMBaseXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EC433231283090074052B /* ZMBaseXibView.m */; };
+		187EC437231286950074052B /* UIView+ZMXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EC436231286950074052B /* UIView+ZMXib.m */; };
+		187EC43C23128AE10074052B /* ZMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EC43A23128AE10074052B /* ZMBaseViewController.m */; };
+		187EC44023128CD70074052B /* ZMRegisterBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EC43F23128CD70074052B /* ZMRegisterBaseViewController.m */; };
+		187EC447231294F20074052B /* ZMRegisterDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EC446231294F20074052B /* ZMRegisterDataViewController.m */; };
+		187EC457231299DC0074052B /* ZMDefaultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EC455231299DC0074052B /* ZMDefaultTableViewCell.m */; };
+		187EC458231299DC0074052B /* ZMDefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187EC456231299DC0074052B /* ZMDefaultTableViewCell.xib */; };
+		187EC45C231299EE0074052B /* ZMMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EC45A231299EE0074052B /* ZMMessageTableViewCell.m */; };
+		187EC45D231299EE0074052B /* ZMMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187EC45B231299EE0074052B /* ZMMessageTableViewCell.xib */; };
+		189E154B23129BD900CD08DD /* ZMRegisterItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E154A23129BD900CD08DD /* ZMRegisterItemModel.m */; };
+		189E154E2312A07500CD08DD /* ZMRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189E154D2312A07500CD08DD /* ZMRegisterViewController.m */; };
+		189E15502312A19B00CD08DD /* register.txt in Resources */ = {isa = PBXBuildFile; fileRef = 189E154F2312A19B00CD08DD /* register.txt */; };
+		18E6D6F723129AD700906CFF /* ZMIndicatorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6D6F523129AD700906CFF /* ZMIndicatorTableViewCell.m */; };
+		18E6D6F823129AD700906CFF /* ZMIndicatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E6D6F623129AD700906CFF /* ZMIndicatorTableViewCell.xib */; };
+		18E6D6FC23129B8500906CFF /* ZMBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6D6FB23129B8500906CFF /* ZMBaseTableViewCell.m */; };
+		E5444C3C69D2D8C815A4A25A /* libPods-T.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4675BB36AEC1420384731B5D /* libPods-T.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180915D02309A6AE00A6CA00 /* T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180915D32309A6AE00A6CA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180915D42309A6AE00A6CA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180915D62309A6AE00A6CA00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180915D72309A6AE00A6CA00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180915DA2309A6AE00A6CA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180915DC2309A6AF00A6CA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180915DF2309A6AF00A6CA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180915E12309A6AF00A6CA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180915E22309A6AF00A6CA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187EC42D23127E740074052B /* XibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibView.h; sourceTree = "<group>"; };
+		187EC42E23127E740074052B /* XibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibView.m; sourceTree = "<group>"; };
+		187EC43023127E870074052B /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		187EC432231283090074052B /* ZMBaseXibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseXibView.h; sourceTree = "<group>"; };
+		187EC433231283090074052B /* ZMBaseXibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseXibView.m; sourceTree = "<group>"; };
+		187EC435231286950074052B /* UIView+ZMXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZMXib.h"; sourceTree = "<group>"; };
+		187EC436231286950074052B /* UIView+ZMXib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZMXib.m"; sourceTree = "<group>"; };
+		187EC438231289CB0074052B /* ZMCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMCategory.h; sourceTree = "<group>"; };
+		187EC43923128AE10074052B /* ZMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseViewController.h; sourceTree = "<group>"; };
+		187EC43A23128AE10074052B /* ZMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseViewController.m; sourceTree = "<group>"; };
+		187EC43E23128CD70074052B /* ZMRegisterBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMRegisterBaseViewController.h; sourceTree = "<group>"; };
+		187EC43F23128CD70074052B /* ZMRegisterBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMRegisterBaseViewController.m; sourceTree = "<group>"; };
+		187EC445231294F20074052B /* ZMRegisterDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMRegisterDataViewController.h; sourceTree = "<group>"; };
+		187EC446231294F20074052B /* ZMRegisterDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMRegisterDataViewController.m; sourceTree = "<group>"; };
+		187EC454231299DC0074052B /* ZMDefaultTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMDefaultTableViewCell.h; sourceTree = "<group>"; };
+		187EC455231299DC0074052B /* ZMDefaultTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMDefaultTableViewCell.m; sourceTree = "<group>"; };
+		187EC456231299DC0074052B /* ZMDefaultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMDefaultTableViewCell.xib; sourceTree = "<group>"; };
+		187EC459231299EE0074052B /* ZMMessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMMessageTableViewCell.h; sourceTree = "<group>"; };
+		187EC45A231299EE0074052B /* ZMMessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMMessageTableViewCell.m; sourceTree = "<group>"; };
+		187EC45B231299EE0074052B /* ZMMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMMessageTableViewCell.xib; sourceTree = "<group>"; };
+		189E154923129BD900CD08DD /* ZMRegisterItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMRegisterItemModel.h; sourceTree = "<group>"; };
+		189E154A23129BD900CD08DD /* ZMRegisterItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMRegisterItemModel.m; sourceTree = "<group>"; };
+		189E154C2312A07500CD08DD /* ZMRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMRegisterViewController.h; sourceTree = "<group>"; };
+		189E154D2312A07500CD08DD /* ZMRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMRegisterViewController.m; sourceTree = "<group>"; };
+		189E154F2312A19B00CD08DD /* register.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = register.txt; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		18E6D6F423129AD700906CFF /* ZMIndicatorTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMIndicatorTableViewCell.h; sourceTree = "<group>"; };
+		18E6D6F523129AD700906CFF /* ZMIndicatorTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMIndicatorTableViewCell.m; sourceTree = "<group>"; };
+		18E6D6F623129AD700906CFF /* ZMIndicatorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZMIndicatorTableViewCell.xib; sourceTree = "<group>"; };
+		18E6D6FA23129B8500906CFF /* ZMBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMBaseTableViewCell.h; sourceTree = "<group>"; };
+		18E6D6FB23129B8500906CFF /* ZMBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMBaseTableViewCell.m; sourceTree = "<group>"; };
+		2506EA4B39E3B390614173FC /* Pods-T.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T.release.xcconfig"; path = "Target Support Files/Pods-T/Pods-T.release.xcconfig"; sourceTree = "<group>"; };
+		4675BB36AEC1420384731B5D /* libPods-T.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-T.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78705C9AFA8A9753E9552B2E /* Pods-T.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T.debug.xcconfig"; path = "Target Support Files/Pods-T/Pods-T.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180915CD2309A6AE00A6CA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5444C3C69D2D8C815A4A25A /* libPods-T.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180915C72309A6AE00A6CA00 = {
+			isa = PBXGroup;
+			children = (
+				180915D22309A6AE00A6CA00 /* T */,
+				180915D12309A6AE00A6CA00 /* Products */,
+				3EF54B378A99613535D4938F /* Pods */,
+				62E88C39D20E5E76FFF1C694 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		180915D12309A6AE00A6CA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180915D02309A6AE00A6CA00 /* T.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180915D22309A6AE00A6CA00 /* T */ = {
+			isa = PBXGroup;
+			children = (
+				189E154F2312A19B00CD08DD /* register.txt */,
+				180915D32309A6AE00A6CA00 /* AppDelegate.h */,
+				180915D42309A6AE00A6CA00 /* AppDelegate.m */,
+				180915D62309A6AE00A6CA00 /* ViewController.h */,
+				180915D72309A6AE00A6CA00 /* ViewController.m */,
+				18E6D6F923129B2000906CFF /* View */,
+				187EC44D231299860074052B /* Model */,
+				187EC44C2312996F0074052B /* Controller */,
+				187EC438231289CB0074052B /* ZMCategory.h */,
+				187EC435231286950074052B /* UIView+ZMXib.h */,
+				187EC436231286950074052B /* UIView+ZMXib.m */,
+				187EC432231283090074052B /* ZMBaseXibView.h */,
+				187EC433231283090074052B /* ZMBaseXibView.m */,
+				187EC42D23127E740074052B /* XibView.h */,
+				187EC42E23127E740074052B /* XibView.m */,
+				187EC43023127E870074052B /* XibView.xib */,
+				180915D92309A6AE00A6CA00 /* Main.storyboard */,
+				180915DC2309A6AF00A6CA00 /* Assets.xcassets */,
+				180915DE2309A6AF00A6CA00 /* LaunchScreen.storyboard */,
+				180915E12309A6AF00A6CA00 /* Info.plist */,
+				180915E22309A6AF00A6CA00 /* main.m */,
+			);
+			path = T;
+			sourceTree = "<group>";
+		};
+		187EC44C2312996F0074052B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				187EC43923128AE10074052B /* ZMBaseViewController.h */,
+				187EC43A23128AE10074052B /* ZMBaseViewController.m */,
+				187EC43E23128CD70074052B /* ZMRegisterBaseViewController.h */,
+				187EC43F23128CD70074052B /* ZMRegisterBaseViewController.m */,
+				187EC445231294F20074052B /* ZMRegisterDataViewController.h */,
+				187EC446231294F20074052B /* ZMRegisterDataViewController.m */,
+				189E154C2312A07500CD08DD /* ZMRegisterViewController.h */,
+				189E154D2312A07500CD08DD /* ZMRegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		187EC44D231299860074052B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				189E154923129BD900CD08DD /* ZMRegisterItemModel.h */,
+				189E154A23129BD900CD08DD /* ZMRegisterItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18E6D6F923129B2000906CFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18E6D6F423129AD700906CFF /* ZMIndicatorTableViewCell.h */,
+				18E6D6F523129AD700906CFF /* ZMIndicatorTableViewCell.m */,
+				18E6D6F623129AD700906CFF /* ZMIndicatorTableViewCell.xib */,
+				187EC454231299DC0074052B /* ZMDefaultTableViewCell.h */,
+				187EC455231299DC0074052B /* ZMDefaultTableViewCell.m */,
+				187EC456231299DC0074052B /* ZMDefaultTableViewCell.xib */,
+				187EC459231299EE0074052B /* ZMMessageTableViewCell.h */,
+				187EC45A231299EE0074052B /* ZMMessageTableViewCell.m */,
+				187EC45B231299EE0074052B /* ZMMessageTableViewCell.xib */,
+				18E6D6FA23129B8500906CFF /* ZMBaseTableViewCell.h */,
+				18E6D6FB23129B8500906CFF /* ZMBaseTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EF54B378A99613535D4938F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78705C9AFA8A9753E9552B2E /* Pods-T.debug.xcconfig */,
+				2506EA4B39E3B390614173FC /* Pods-T.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62E88C39D20E5E76FFF1C694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4675BB36AEC1420384731B5D /* libPods-T.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180915CF2309A6AE00A6CA00 /* T */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180915E62309A6AF00A6CA00 /* Build configuration list for PBXNativeTarget "T" */;
+			buildPhases = (
+				23AB68EBCD5DE0FA9C7830DB /* [CP] Check Pods Manifest.lock */,
+				180915CC2309A6AE00A6CA00 /* Sources */,
+				180915CD2309A6AE00A6CA00 /* Frameworks */,
+				180915CE2309A6AE00A6CA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T;
+			productName = T;
+			productReference = 180915D02309A6AE00A6CA00 /* T.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180915C82309A6AE00A6CA00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = zm;
+				TargetAttributes = {
+					180915CF2309A6AE00A6CA00 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 180915CB2309A6AE00A6CA00 /* Build configuration list for PBXProject "T" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180915C72309A6AE00A6CA00;
+			productRefGroup = 180915D12309A6AE00A6CA00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180915CF2309A6AE00A6CA00 /* T */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180915CE2309A6AE00A6CA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187EC45D231299EE0074052B /* ZMMessageTableViewCell.xib in Resources */,
+				180915E02309A6AF00A6CA00 /* LaunchScreen.storyboard in Resources */,
+				180915DD2309A6AF00A6CA00 /* Assets.xcassets in Resources */,
+				187EC43123127E870074052B /* XibView.xib in Resources */,
+				187EC458231299DC0074052B /* ZMDefaultTableViewCell.xib in Resources */,
+				18E6D6F823129AD700906CFF /* ZMIndicatorTableViewCell.xib in Resources */,
+				180915DB2309A6AE00A6CA00 /* Main.storyboard in Resources */,
+				189E15502312A19B00CD08DD /* register.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23AB68EBCD5DE0FA9C7830DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-T-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180915CC2309A6AE00A6CA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180915D82309A6AE00A6CA00 /* ViewController.m in Sources */,
+				18E6D6FC23129B8500906CFF /* ZMBaseTableViewCell.m in Sources */,
+				189E154B23129BD900CD08DD /* ZMRegisterItemModel.m in Sources */,
+				187EC434231283090074052B /* ZMBaseXibView.m in Sources */,
+				187EC447231294F20074052B /* ZMRegisterDataViewController.m in Sources */,
+				187EC437231286950074052B /* UIView+ZMXib.m in Sources */,
+				18E6D6F723129AD700906CFF /* ZMIndicatorTableViewCell.m in Sources */,
+				187EC457231299DC0074052B /* ZMDefaultTableViewCell.m in Sources */,
+				180915E32309A6AF00A6CA00 /* main.m in Sources */,
+				187EC43C23128AE10074052B /* ZMBaseViewController.m in Sources */,
+				187EC42F23127E740074052B /* XibView.m in Sources */,
+				189E154E2312A07500CD08DD /* ZMRegisterViewController.m in Sources */,
+				180915D52309A6AE00A6CA00 /* AppDelegate.m in Sources */,
+				187EC44023128CD70074052B /* ZMRegisterBaseViewController.m in Sources */,
+				187EC45C231299EE0074052B /* ZMMessageTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180915D92309A6AE00A6CA00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180915DA2309A6AE00A6CA00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180915DE2309A6AF00A6CA00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180915DF2309A6AF00A6CA00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180915E42309A6AF00A6CA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180915E52309A6AF00A6CA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180915E72309A6AF00A6CA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78705C9AFA8A9753E9552B2E /* Pods-T.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BPP8Z99GH;
+				INFOPLIST_FILE = T/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zm.T;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180915E82309A6AF00A6CA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2506EA4B39E3B390614173FC /* Pods-T.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BPP8Z99GH;
+				INFOPLIST_FILE = T/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zm.T;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180915CB2309A6AE00A6CA00 /* Build configuration list for PBXProject "T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180915E42309A6AF00A6CA00 /* Debug */,
+				180915E52309A6AF00A6CA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180915E62309A6AF00A6CA00 /* Build configuration list for PBXNativeTarget "T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180915E72309A6AF00A6CA00 /* Debug */,
+				180915E82309A6AF00A6CA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180915C82309A6AE00A6CA00 /* Project object */;
+}
